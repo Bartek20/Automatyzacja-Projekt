@@ -4,6 +4,7 @@ Projekt realizowany w ramach zajęć na Uniwersytecie WSB Merito Wrocław 2025
 ## Funkcjonalności
 - Module 0
 - Echo x
+- add
 
 ## Instalacja
 ```bash
@@ -15,11 +16,16 @@ cd "Automatyzacja-Projekt"
 
 ## Użycie
 ```python3
-from main import module, echo
+from main import module, echo, add
 zero = module()
 print(zero)
 
 echo(zero)
+
+suma = add(3)
+print(suma)
+suma = add(5, 7)
+print(suma)
 ```
 
 ## Dokumentacja
